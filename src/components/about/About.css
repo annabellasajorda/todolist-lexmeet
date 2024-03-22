@@ -1,0 +1,33 @@
+.done-all-btn {
+    background-color: #5E1B89;
+    color: white;
+    border: none;
+    padding: 5px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto; 
+    margin-left: 235px;
+    margin-top: 15px; 
+}
+
+.done-all-btn:hover {
+    background-color: #9D71BC;
+}
+
+.delete-all-btn {
+    background-color: #F4512C;
+    color: white;
+    border: none;
+    padding: 5px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto; 
+    margin-left: 640px;
+    margin-top: 15px;
+}
+
+.delete-all-btn:hover {
+    background-color: #FF7F4D;
+}

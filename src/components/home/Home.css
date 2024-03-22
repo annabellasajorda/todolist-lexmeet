@@ -1,0 +1,120 @@
+.card-body .row {
+  display: flex; 
+  align-items: center; 
+}
+
+.card-body .row .col {
+  display: flex; 
+  align-items: center; 
+}
+
+.card-body .row .col:first-child {
+  flex: 1; 
+  margin-left: 10px; 
+  font-size: 16px;
+  font-weight: bold;
+  color: #414141;
+  padding-left: 10px;
+}
+
+.card .card-body .row > div:first-child input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+
+.card-body .row .col:last-child {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-right: 0; 
+}
+
+.card-header {
+  background-color: #FF7F4D;
+  color: white;
+  padding: 10px;
+  text-align: center; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: none; 
+  text-size-adjust: 20px;
+}
+
+.custom-checkbox {
+  vertical-align: middle;
+}
+
+.completed {
+  text-decoration: line-through; 
+  color: #999; 
+}
+
+.edit-btn {
+  background-color: #5E1B89;
+  color: white;
+  border: none;
+  padding: 5px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  width: 100px; 
+}
+
+.edit-btn:hover {
+  background-color: #9D71BC;
+}
+
+.delete-btn {
+  background-color: #F4512C;
+  color: white;
+  border: none;
+  padding: 5px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  width: 100px; 
+}
+
+.delete-btn:hover {
+  background-color: #FF7F4D;
+}
+
+
+.status-info p {
+  color: #414141; 
+  margin: 0; 
+  font-size: 14px;
+}
+
+/* Align "Actions" header with "Edit" and "Delete" buttons */
+.card-body .row .col:last-child {
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the card horizontally */
+  align-items: center; /* Center the card vertically */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: #ffffff;
+  size-adjust: auto;
+  width: 80%;
+}
+
+.card-body {
+  padding: auto;
+}
+
+.card-body .row {
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
