@@ -88,16 +88,15 @@
   font-size: 14px;
 }
 
-/* Align "Actions" header with "Edit" and "Delete" buttons */
 .card-body .row .col:last-child {
-  justify-content: center; /* Center buttons horizontally */
-  align-items: center; /* Center buttons vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .container {
-  display: flex; /* Use flexbox for layout */
-  justify-content: center; /* Center the card horizontally */
-  align-items: center; /* Center the card vertically */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
 }
 
 .card {
